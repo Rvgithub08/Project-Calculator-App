@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+}
+
+.Main{
+    display: flex;
+    height: 700px;
+    width: 400px;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    background-color: #1c1c1c;
+    border-radius: 20px;
+}
+
+.displayBox{
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+}
+
+#display{
+    width: 95%;
+    height: 94%;
+    border-radius: 12px;
+    font-size: x-large;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 4px;
+    background-color: #505050;
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.symbol{
+    background-color: #ff9500;
+}
+
+.button:active {
+    opacity: 0.6;
+}
+
+.zeroBtn{
+    width: 190px;
+}
